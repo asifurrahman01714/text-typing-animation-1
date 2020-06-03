@@ -1,0 +1,33 @@
+body{
+
+}
+.text_typing_animation{
+    
+background: #d2aaaa;
+    
+width: 240px;
+    
+text-align: center;
+    
+height: 48px;
+    
+margin-left: 550px;
+}
+h1{
+    text-transform: capitalize;
+    animation: type 3s steps(30) infinite;
+    -webkit-animation: type 3s steps(30) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    width: 15ch;
+}
+
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 15ch;
+    }
+}
